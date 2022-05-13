@@ -14,9 +14,10 @@ _G.BindColor = Color3.fromHex("#5e81ac")
 
 
 --[[
-random bullshit below
-
-       beware
+I'M NOT ASHAMED OF MY CODE
+I'M STILL LEARNING
+I'M A SKID AND I'M PROUD 
+- jlbrek
 ]]--
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
 local lp = game:GetService("Players").LocalPlayer
