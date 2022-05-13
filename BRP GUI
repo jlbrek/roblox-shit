@@ -368,6 +368,7 @@ c:Button("EXTRA TOOLS (inf)",function()
     local tempr = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
     wait(.01)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-178.651, 431.8, 5510.24)
+    wait(.1)
     fireclickdetector(snkm.Selection1.ClickDetector)
     fireclickdetector(snkm.Selection2.ClickDetector)
     fireclickdetector(snkm.Selection3.ClickDetector)
