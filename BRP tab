@@ -1,6 +1,8 @@
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
-local t = {
+local lp = game:GetService("Players").LocalPlayer
+--local TempName = ""
+local NameList = {
     "TABBED OUT LOL!!!!!!!!!!",
     "AFK",
     "bruh i can still see you",
@@ -24,12 +26,14 @@ local t = {
 
 
 local WindowFocusReleasedFunction = function()
-	game:GetService("ReplicatedStorage").SetRoleplayName:InvokeServer(t[math.random(0,#t)])
+    --TempName = lp.RoleplayName.Text
+	game:GetService("ReplicatedStorage").SetRoleplayName:InvokeServer(NameList[math.random(0,#NameList)])
 	return
 end
 
 local WindowFocusedFunction = function()
-	game:GetService("ReplicatedStorage").SetRoleplayName:InvokeServer("")
+    game:GetService("ReplicatedStorage").SetRoleplayName:InvokeServer("")
+	--game:GetService("ReplicatedStorage").SetRoleplayName:InvokeServer(TempName)
 	return
 end
 
