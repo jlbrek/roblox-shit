@@ -18,16 +18,27 @@ random bullshit below
 
        beware
 ]]--
-
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
 local lp = game:GetService("Players").LocalPlayer
 local crp = lp.Character
 local ws = game:GetService("Workspace")
 local snkm = ws.SnackMachine
-snkm.Giver.Outside:Destroy() -- add check to see if these parts even exist before trying to delete them
-snkm.Giver.Inside:Destroy()
-snkm.Snacks:Destroy()
-snkm.SnackClones:Destroy()
+
+--==| world's worst check :skull:|==--
+if ws.ScrungieMungie == nil then
+    snkm.Giver.Outside:Destroy() -- add check to see if these parts even exist before trying to delete them
+    snkm.Giver.Inside:Destroy()
+    snkm.Snacks:Destroy()
+    snkm.SnackClones:Destroy()
+    local checkP = Instance.new("Part")
+    part.Name = "ScrungieMungie"
+    part.Anchored = true
+    part.Parent = game.Workspace
+    part.CFrame = CFrame.new(0,10000,0)
+    elseif ws.ScrungieMungie != nil then
+        print("fucking christ i hope this works!!")
+    end
+end
 warn("Welcome to BRP gui!")
 warn("This dog shit script was made for this dog shit game!")
 
@@ -82,7 +93,12 @@ local WearPants = function(MANE)
     game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
 end
 
+--[[
+--==| R6 FENIX HAT LOADER|==--
 
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+]]
 
 b:Dropdown("R6 Hat Loaders",{"Ogre","Flying Extendo","Sniper R6","Mech","Hoverboard",
            "Extendo V2","Samurai","Kill-Bot","Stand","Bob","Mech-Arm","Car",
@@ -320,7 +336,12 @@ end
         WearHats("4584787812")
 end
 end)
+--[[
+--==| R15 FENIX HAT LOADER|==--
 
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+]]
 b:Dropdown("R15 Hat Loaders",{"Samurai R15","Sniper R15",
     "PeePee","Amogus R15","Car R15","Arm-Man","Dragon","Flying Extendo R15"},false,function(owo)
     if owo == "Samurai R15" then
