@@ -1,0 +1,381 @@
+_G.MainColor = Color3.fromHex("#2e3440")
+_G.SecondaryColor = Color3.fromHex("#434c5e")
+_G.TertiaryColor = Color3.fromHex("#3b4252")
+_G.MainTextColor = Color3.fromHex("#eceff4")
+_G.PointerColor = Color3.fromHex("#eceff4")
+_G.ButtonTextColor = Color3.fromHex("#d8dee9")
+_G.SliderColor = Color3.fromHex("#5e81ac")
+_G.ButtonColor = Color3.fromHex("#5e81ac")
+_G.ToggleColor = Color3.fromHex("#5e81ac")
+_G.DraggerCircleColor = Color3.fromHex("#81a1c1")
+_G.BindColor = Color3.fromHex("#5e81ac")
+
+
+
+
+--[[
+random bullshit below
+
+       beware
+]]--
+
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+local lp = game:GetService("Players").LocalPlayer
+local crp = lp.Character
+local ws = game:GetService("Workspace")
+local snkm = ws.SnackMachine
+snkm.Giver.Outside:Destroy() -- gotta make this a check lmao
+snkm.Giver.Inside:Destroy()
+snkm.Snacks:Destroy()
+snkm.SnackClones:Destroy()
+warn("Welcome to BRP gui!")
+warn("This dog shit script was made for this dog shit game!")
+
+local w = library:CreateWindow("BRP GUI") -- windrr!
+local b = w:CreateFolder("FEnix") -- foldrr1!
+local c = w:CreateFolder("Misc") -- foldrr2!!!!-- 
+
+b:Slider("Hat Layer (1-3)",{
+    min = 1; -- min value of the slider
+    max = 3; -- max value of the slider
+    precise = false; -- max 2 decimals
+},function(value)
+    if value == 1 then
+        DAWG = "Hat1"
+    elseif value == 2 then
+        DAWG = "Hat2"
+    elseif value == 4 then
+        DAWG = "Hat3"
+    end
+end)
+
+local agagagag = function(ID) 
+    local args = {
+        [1] = {
+            ["Category"] = DAWG,
+            ["AssetId"] = ID
+        }
+    }
+    
+    game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
+end
+
+local rahrahrah = function(SWAWS) 
+    local args = {
+        [1] = {
+            ["Category"] = "Shirt",
+            ["AssetId"] = SWAWS
+        }
+    }
+    
+    game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
+end
+
+local grgrgrgrgr = function(MANE) 
+    local args = {
+        [1] = {
+            ["Category"] = "Pants",
+            ["AssetId"] = MANE
+        }
+    }
+    
+    game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
+end
+
+
+
+b:Dropdown("R6 Hat Loaders",{"Ogre","Flying Extendo","Sniper R6","Mech","Hoverboard",
+           "Extendo V2","Samurai","Kill-Bot","Stand","Bob","Mech-Arm","Car",
+           "Amogus","Fallen Angel","Spider","Scythe","Pee Pee","Head","Creper",
+           "Spider V2","Mechanoid","Sofa Room","Statue","Handz VR"},false,function(uwu)
+--==| HAT FUNCTION |==--
+
+--==| HAT FUNCTION |==--
+    if uwu == "Ogre" then
+        agagagag("20011897")
+        agagagag("20011951")
+        agagagag("5132742686")
+        agagagag("5829897537")
+        agagagag("5829899746")
+        agagagag("5857609096")
+        agagagag("5857617173")
+        agagagag("11142504")
+        agagagag("4641686175")
+        agagagag("14463468")
+end
+    if uwu == "Flying Extendo" then
+        agagagag("4132848799")
+        agagagag("5136212345")
+        agagagag("5136159662")
+        agagagag("5136165463")
+        agagagag("20011897")
+        agagagag("5136154487")
+        agagagag("48474294")
+        agagagag("451220849")
+        agagagag("63690008")
+        agagagag("62234425")
+        
+end
+    if uwu == "Sniper R6" then
+        agagagag("5136154487")
+        agagagag("4504231783")
+        agagagag("63690008")
+end
+    if uwu == "Mech" then
+        agagagag("14463468")
+        agagagag("11142504")
+        agagagag("5197583204")
+        agagagag("5197580057")
+        agagagag("4367478665")
+        agagagag("4504231783")
+        agagagag("48474294")
+        agagagag("451220849")
+        agagagag("63690008")
+        agagagag("62234425")
+end
+    if uwu == "Hoverboard" then
+        agagagag("5136154487")
+        agagagag("191101707")
+        agagagag("29532720")
+        agagagag("451220849")
+        agagagag("63690008")
+        agagagag("62234425")
+end
+    if uwu == "Extendo V2" then
+        agagagag("8337370")
+        agagagag("16157972")
+        agagagag("15913837")
+        agagagag("5132745957")
+        agagagag("20011897")
+        agagagag("48474294")
+        agagagag("48474313")
+        agagagag("451220849")
+        agagagag("63690008")
+        agagagag("62234425")
+end
+    if uwu == "Samurai" then
+        agagagag("4771664741")
+        agagagag("63690008")
+end
+    if uwu == "Kill-Bot" then
+        agagagag("6114870953")
+        agagagag("6114875330")
+        agagagag("6114844034")
+        agagagag("6114849049")
+        agagagag("5100070995")
+        agagagag("191101707")
+        agagagag("4489239608")
+        agagagag("4504231783")
+end
+    if uwu == "Stand" then
+        agagagag("4735551808")
+        agagagag("29532720")
+        agagagag("4085947044")
+        agagagag("48474294")
+        agagagag("451220849")
+        agagagag("63690008")
+        agagagag("62234425")
+end
+    if uwu == "Bob" then
+        agagagag("4602280470")
+        agagagag("4602810314")
+        agagagag("4132848799")
+        agagagag("5132745957")
+        agagagag("4602286484")
+        agagagag("30845203")
+end
+    if uwu == "Mech-Arm" then
+        agagagag("29532720")
+        agagagag("48474294")
+        agagagag("48474313")
+        agagagag("451220849")
+        agagagag("63690008")
+        agagagag("62234425")
+        agagagag("20011897")
+        agagagag("14463468")
+end
+    if uwu == "Car" then
+        agagagag("6309381870")
+        agagagag("191101707")
+end
+    if uwu == "Amogus" then
+        agagagag("6055132810")
+        agagagag("5231223671")
+        agagagag("4584042059")
+end
+    if uwu == "Fallen Angel" then 
+        agagagag("5870560075")
+        agagagag("5870530069")
+        agagagag("5870508493")
+        agagagag("5870540219")
+        agagagag("5136212345")
+        agagagag("5136159662")
+        agagagag("5136165463")
+        agagagag("5136154487")
+end
+    if uwu == "Spider" then
+        agagagag("6309592547")
+        agagagag("8337370")
+        agagagag("16157972")
+        agagagag("15913837")
+        agagagag("4584787812")
+        agagagag("48474294")
+        agagagag("48474313")
+        agagagag("451220849")
+        agagagag("63690008")
+        agagagag("62234425")
+end
+    if uwu == "Scythe" then
+        agagagag("5870560075")
+        agagagag("5870530069")
+        agagagag("5870508493")
+        agagagag("4794106130")
+        agagagag("4584787812")
+        agagagag("48474294")
+        agagagag("451220849")
+        agagagag("63690008")
+        agagagag("62234425")
+end
+    if uwu == "Pee Pee" then
+        agagagag("20011897")
+        agagagag("12548563")
+        rahrahrah("9499750368")
+end
+    if uwu == "Head" then
+        agagagag("4793958453")
+        agagagag("5674299814")
+        agagagag("5674297809")
+        agagagag("1744219293")
+        agagagag("4878136110")
+        agagagag("4820288389")
+        agagagag("4584788319")
+        agagagag("4584787037")
+        agagagag("4584787812")
+        agagagag("29532720")
+end
+    if uwu == "Creper" then
+        agagagag("7603560230")
+        agagagag("30845203")
+        agagagag("29532720")
+        agagagag("48474294")
+        agagagag("451220849")
+        agagagag("63690008")
+        agagagag("62234425")
+end
+    if uwu == "Spider V2" then
+        agagagag("6309592547")
+        agagagag("4584787812")
+        agagagag("5314242179")
+        agagagag("7178028147")
+        agagagag("7284595734")
+        agagagag("5314249208")
+        agagagag("5314234050")
+        agagagag("5314258567")
+        agagagag("7168347862")
+        agagagag("7168251461")
+end
+    if uwu == "Mechanoid" then
+        agagagag("7178028147")
+        agagagag("7284595734")
+        agagagag("7168360269")
+        agagagag("5314249208")
+        agagagag("5314234050")
+        agagagag("5314258567")
+        agagagag("29532720")
+        agagagag("4504231783")
+        agagagag("63690008")
+end
+    if uwu == "Sofa Room" then
+        agagagag("4940503634")
+        agagagag("5591760397")
+        agagagag("8163032656")
+        agagagag("4793958453")
+        agagagag("4878136110")
+        agagagag("4584788319")
+        agagagag("4584787037")
+        agagagag("4585144193")
+        agagagag("4332375148")
+end
+    if uwu == "Statue" then
+        agagagag("1744219293")
+        agagagag("30845203")
+        agagagag("5063499736")
+        agagagag("4878136110")
+        agagagag("4584788319")
+        agagagag("191101707")
+        agagagag("4584787812")
+        agagagag("4584787037")
+        agagagag("8284021247")
+end
+    if uwu == "Handz VR" then
+        agagagag("7669627395")
+        agagagag("4793958453")
+        agagagag("5674298865")
+        agagagag("1744219293")
+        agagagag("18015906")
+        agagagag("1743941933")
+        agagagag("4878136110")
+        agagagag("4584788319")
+        agagagag("4584787037")
+        agagagag("4584787812")
+end
+end)
+
+b:Dropdown("R15 Hat Loaders",{"Samurai R15","Sniper R15",
+    "PeePee","Amogus R15","Car R15","Arm-Man","Dragon","Flying Extendo R15"},false,function(owo)
+    if owo == "Samurai R15" then
+        agagagag("4771664741")
+end
+    if owo == "Sniper R15" then
+        agagagag("4504231783")
+        agagagag("5136154487")
+end
+    if owo == "PeePee" then
+        agagagag("5674299814")
+        agagagag("5674297809")
+        rahrahrah("9499745499")
+end
+    if owo == "Amogus R15" then
+        agagagag("5231223671")
+end
+    if owo == "Car R15" then
+        agagagag("6309381870")
+        agagagag("191101707")
+end
+    if owo == "Arm-Man" then
+        rahrahrah("9107709476")
+        agagagag("5858476490")
+end
+    if owo == "Dragon" then
+        rahrahrah("9157122760")
+        grgrgrgrgr("9157126083")
+        agagagag("5410515027")
+        agagagag("5410518497")
+        agagagag("5593848751")
+        agagagag("5505301521")
+end
+    if owo == "Flying Extendo R15" then
+        agagagag("5677348945")
+        agagagag("5677350668")
+        agagagag("7241027024")
+        agagagag("4132848799")
+end
+end)
+c:Button("REMOVE DRUMSET",function()
+    ws["Custom heavy drum"]:Destroy()
+end)
+c:Button("EXTRA TOOLS (inf)",function()
+    local tempr = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+    wait(.01)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-178.651, 431.8, 5510.24)
+    fireclickdetector(snkm.Selection1.ClickDetector)
+    fireclickdetector(snkm.Selection2.ClickDetector)
+    fireclickdetector(snkm.Selection3.ClickDetector)
+    fireclickdetector(snkm.Selection4.ClickDetector)
+    fireclickdetector(snkm.Selection5.ClickDetector)
+    fireclickdetector(snkm.Selection6.ClickDetector)
+    fireclickdetector(snkm.Selection7.ClickDetector)
+    fireclickdetector(snkm.Selection8.ClickDetector)
+    wait(1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(tempr)
+end)
