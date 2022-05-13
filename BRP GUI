@@ -36,7 +36,7 @@ if ws.ScrungieMungie == nil then
     part.Anchored = true
     part.Parent = game.Workspace
     part.CFrame = CFrame.new(0,10000,0)
-    elseif ws.ScrungieMungie != nil then
+    elseif ws.ScrungieMungie == nil then
         print("fucking christ i hope this works!!")
     end
 end
