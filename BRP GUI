@@ -25,21 +25,12 @@ local crp = lp.Character
 local ws = game:GetService("Workspace")
 local snkm = ws.SnackMachine
 
---==| world's worst check :skull:|==--
-if ws.ScrungieMungie == nil then
-    snkm.Giver.Outside:Destroy() -- add check to see if these parts even exist before trying to delete them
-    snkm.Giver.Inside:Destroy()
-    snkm.Snacks:Destroy()
-    snkm.SnackClones:Destroy()
-    local checkP = Instance.new("Part")
-    part.Name = "ScrungieMungie"
-    part.Anchored = true
-    part.Parent = game.Workspace
-    part.CFrame = CFrame.new(0,10000,0)
-    elseif ws.ScrungieMungie == nil then
-        print("fucking christ i hope this works!!")
-    end
-end
+
+snkm.Giver.Outside:Destroy()
+snkm.Giver.Inside:Destroy()
+snkm.Snacks:Destroy()
+snkm.SnackClones:Destroy()
+   
 warn("Welcome to BRP gui!")
 warn("This dog shit script was made for this dog shit game!")
 
