@@ -1,4 +1,4 @@
-_G.MainColor = Color3.fromHex("#2e3440")
+_G.MainColor = Color3.fromHex("#0000ff")
 _G.SecondaryColor = Color3.fromHex("#434c5e")
 _G.TertiaryColor = Color3.fromHex("#3b4252")
 _G.MainTextColor = Color3.fromHex("#eceff4")
@@ -93,7 +93,7 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
 ]]
 
 b:Dropdown("R6 Hat Loaders",{"Ogre","Flying Extendo","Sniper R6","Mech","Hoverboard",
-           "Extendo V2","Samurai","Kill-Bot","Stand","Bob","Mech-Arm","Car",
+           "Extendo V2","Samurai","Kill-Bot","i like kissing men","Bob","Mech-Arm","Car",
            "Amogus","Fallen Angel","Spider","Scythe","Pee Pee","Head","Creper",
            "Spider V2","Mechanoid","Sofa Room","Statue","Handz VR"},false,function(uwu)
 --==| HAT FUNCTION |==--
@@ -175,7 +175,7 @@ end
         WearHats("4489239608")
         WearHats("4504231783")
 end
-    if uwu == "Stand" then
+    if uwu == "i like kissing men" then
         WearHats("4735551808")
         WearHats("29532720")
         WearHats("4085947044")
