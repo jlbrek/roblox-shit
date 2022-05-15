@@ -92,14 +92,14 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
 
 ]]
 
-b:Dropdown("R6 Hat Loaders",{"Ogre","Flying Extendo","Sniper R6","Mech","Hoverboard",
+b:Dropdown("R6 Hat Loaders",{"fuck me daddy","i suck big balls","im a cumslut","Mech","Hoverboard",
            "Extendo V2","Samurai","Kill-Bot","i like kissing men","Bob","Mech-Arm","Car",
            "Amogus","Fallen Angel","Spider","Scythe","Pee Pee","Head","Creper",
            "Spider V2","Mechanoid","Sofa Room","Statue","Handz VR"},false,function(uwu)
 --==| HAT FUNCTION |==--
 
 --==| HAT FUNCTION |==--
-    if uwu == "Ogre" then
+    if uwu == "fuck me daddy" then
         WearHats("20011897")
         WearHats("20011951")
         WearHats("5132742686")
@@ -111,7 +111,7 @@ b:Dropdown("R6 Hat Loaders",{"Ogre","Flying Extendo","Sniper R6","Mech","Hoverbo
         WearHats("4641686175")
         WearHats("14463468")
 end
-    if uwu == "Flying Extendo" then
+    if uwu == "i suck big balls" then
         WearHats("4132848799")
         WearHats("5136212345")
         WearHats("5136159662")
@@ -124,7 +124,7 @@ end
         WearHats("62234425")
         
 end
-    if uwu == "Sniper R6" then
+    if uwu == "im a cumslut" then
         WearHats("5136154487")
         WearHats("4504231783")
         WearHats("63690008")
