@@ -21,6 +21,7 @@ I'M A SKID AND I'M PROUD
 ]]--
 
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+local sgui = game.StarterGUI
 local lp = game:GetService("Players").LocalPlayer
 local crp = lp.Character
 local ws = game:GetService("Workspace")
@@ -381,7 +382,11 @@ end
 end
 end)
 c:Button("REMOVE DRUMSET",function()
-    ws["Custom heavy drum"]:Destroy()
+    if ws["Custom heavy drum"] ~= nil then
+        ws["Custom heavy drum"]:Destroy()
+    elseif ws["Custom heavy drum"] == mil then
+        sgui:SetCore("SendNotification",{Title = ":skull:", Text = "Dawg, Xplaymxne666, you already pressed this shit lmao", Durriation = 2})
+    end
 end)
 c:Button("EXTRA TOOLS (inf)",function() -- Eventually want to make this a toggle instead of a button
     local TempLocation = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
