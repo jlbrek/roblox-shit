@@ -99,8 +99,8 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
 
 ]]
 
-b:Dropdown("R6 Hat Loaders",{"Ogre","Flying Extendo","im a cumslut","Mech","Hoverboard",
-           "Extendo V2","Samurai","Kill-Bot","i like kissing men","Bob","Mech-Arm","Car",
+b:Dropdown("R6 Hat Loaders",{"Ogre","Flying Extendo","Sniper","Mech","Hoverboard",
+           "Extendo V2","Samurai","Kill-Bot","Stand","Bob","Mech-Arm","Car",
            "Amogus","Fallen Angel","Spider","Scythe","Pee Pee","Head","Creper",
            "Spider V2","Mechanoid","Sofa Room","Statue","Handz VR"},false,function(uwu)
 --==| HAT FUNCTION |==--
@@ -182,7 +182,7 @@ end
         WearHats("4489239608")
         WearHats("4504231783")
 end
-    if uwu == "i like kissing men" then
+    if uwu == "Stand" then
         WearHats("4735551808")
         WearHats("29532720")
         WearHats("4085947044")
