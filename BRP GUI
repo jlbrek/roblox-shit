@@ -384,7 +384,7 @@ end)
 c:Button("REMOVE DRUMSET",function()
     if ws["Custom heavy drum"] ~= nil then
         ws["Custom heavy drum"]:Destroy()
-    elseif ws["Custom heavy drum"] == mil then
+    elseif ws["Custom heavy drum"] == nil then
         sgui:SetCore("SendNotification",{Title = ":skull:", Text = "Dawg, Xplaymxne666, you already pressed this shit lmao", Durriation = 2})
     end
 end)
