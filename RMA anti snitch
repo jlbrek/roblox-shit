@@ -94,7 +94,11 @@ if game.PlaceId == 6708206173 then
       "Albert3WasTaken",
       "YureiIsPossessed",
       "miaomiaociafrei",
-      "Hoshumaru"
+      "Hoshumaru",
+      "Rubymini1",
+      "BaconhairBoi2008",
+      "Tako_songulia",
+      "Frank1101011"
     }
     z = game.Players.PlayerAdded:Connect(function(pjoined)
       for i = 1, #name do 
