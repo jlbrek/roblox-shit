@@ -606,7 +606,6 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V
         WearHats2("5095311912")
         WearHats2("7133489768")
         WearHats2("6056541299")
-        WearHats2("7466057781")
         WearHats2("5412054603")
         WearShirt("9125717992")
         WearPants("9125579408")
@@ -628,7 +627,6 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V
         WearHats2("6056541299")
         WearHats2("7466057781")
         WearHats2("5412054603")
-        WearHats2("7466057781")
         WearShirt("9125717992")
         WearPants("9125579408")
         local args = {
