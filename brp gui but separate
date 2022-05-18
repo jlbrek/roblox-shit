@@ -552,4 +552,17 @@ c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1
         WearShirt("3806921305")
         WearPants("7884569567")
     end
+        if BigBlackMen == "femboy samurai thing" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("6500621548")
+        WearHats2("8465344424")
+        WearHats2("7391254943")
+        WearHats2("5870530069")
+        WearHats2("7168000945")
+        WearHats2("6441556987")
+        WearHats2("5973156193")
+        WearShirt("4408224736")
+        WearPants("7011868219")
+    end
 end)
