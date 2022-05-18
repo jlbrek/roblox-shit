@@ -445,7 +445,7 @@ b2:Slider("Hat Layer (1-3)",{
     end
 end)
 
-b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2","Argument Starter V3","femboy samurai thing"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
+b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2","Argument Starter V3","femboy samurai thing","Sam","Sam (mask)"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
     if BigBlackMen == "Yorrie" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
@@ -558,4 +558,45 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V
         WearShirt("4408224736")
         WearPants("7011868219")
     end
+    if BigBlackMen == "Sam" then
+    game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+    wait(0.1)
+    WearHats2("7194897987")
+    WearHats2("8994112527")
+    WearHats2("4995497755")
+    WearHats2("5066618872")
+    WearHats2("5095311912")
+    WearHats2("5870508493")
+    WearShirt("193296835")
+    WearPants("193296867")
+    local args = {
+        [1] = {
+            ["Category"] = "Face",
+            ["AssetId"] = "9062637857"
+        }
+    }
+    
+    game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
+    end
+    if BigBlackMen == "Sam (mask)" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("7194897987")
+        WearHats2("8994112527")
+        WearHats2("4995497755")
+        WearHats2("5066618872")
+        WearHats2("5095311912")
+        WearHats2("5870508493")
+        WearHats2("6105752475")
+        WearShirt("193296835")
+        WearPants("193296867")
+        local args = {
+            [1] = {
+                ["Category"] = "Face",
+                ["AssetId"] = "9062637857"
+            }
+        }
+        
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
+    end  
 end)
