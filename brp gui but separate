@@ -109,179 +109,179 @@ b:Dropdown("R6 Hat Loaders",{"Ogre","Flying Extendo","Sniper","Mech","Hoverboard
 
 --==| HAT FUNCTION |==--
     if uwu == "Ogre" then
-        WearHats("20011897") 
-        WearHats("20011951")  
-        WearHats("5132742686") 
-        WearHats("5829897537") 
-        WearHats("5829899746") 
-        WearHats("5857609096") 
-        WearHats("5857617173") 
-        WearHats("11142504") 
-        WearHats("4641686175") 
-        WearHats("14463468") 
+        WearHats("20011897") -- Space Cop 
+        WearHats("20011951") -- Morcar the Menacing  
+        WearHats("5132742686") -- Evil Cyclops Eye 
+        WearHats("5829897537") -- Glowing Pumpkin 
+        WearHats("5829899746") -- Void Pumpkin 
+        WearHats("5857609096") -- Phantom Pumpkin 
+        WearHats("5857617173") -- Red Void Pumpkin 
+        WearHats("11142504") -- Motocross 48 Old Skool 
+        WearHats("4641686175") -- Fluffy Heart Earrings 
+        WearHats("14463468") -- Motocross 77 The Sting 
 end
     if uwu == "Flying Extendo" then
-        WearHats("4132848799") 
-        WearHats("5136212345") 
-        WearHats("5136159662") 
-        WearHats("5136165463") 
-        WearHats("20011897") 
-        WearHats("5136154487") 
-        WearHats("48474294") 
-        WearHats("451220849") 
-        WearHats("63690008") 
-        WearHats("62234425") 
+        WearHats("4132848799") -- Cyclops Eye 
+        WearHats("5136212345") -- Green Sniper  
+        WearHats("5136159662") -- Blue Sniper 
+        WearHats("5136165463") -- Red Sniper 
+        WearHats("20011897") -- Space Cop 
+        WearHats("5136154487") -- Black Sniper 
+        WearHats("48474294") -- Girl Hair 
+        WearHats("451220849") -- Lavender Updo 
+        WearHats("63690008")  -- Pal/Bacon Hair
+        WearHats("62234425") -- Brown Hair  
         
 end
     if uwu == "Sniper" then
-        WearHats("5136154487") 
-        WearHats("4504231783") 
-        WearHats("63690008") 
+        WearHats("5136154487") -- Black Sniper
+        WearHats("4504231783") -- Elemental Gemstone shoulder thingy 
+        WearHats("63690008")  -- Pal/Bacon Hair 
 end
     if uwu == "Mech" then
-        WearHats("14463468") 
-        WearHats("11142504") 
-        WearHats("5197583204") 
-        WearHats("5197580057") 
-        WearHats("4367478665") 
-        WearHats("4504231783")
-        WearHats("48474294") 
-        WearHats("451220849") 
-        WearHats("63690008") 
-        WearHats("62234425") 
+        WearHats("14463468") -- Motocross 77 The Sting 
+        WearHats("11142504") -- Motocross 48 Old Skool 
+        WearHats("5197583204") -- Shoulder Rocket Launcher 
+        WearHats("5197580057") -- Shoulder Minigun 
+        WearHats("4367478665") -- Platinum Anime School Girl 
+        WearHats("4504231783") -- Elemental Gemstone shoulder thingy
+        WearHats("48474294") -- Girl Hair 
+        WearHats("451220849") -- Lavender Updo 
+        WearHats("63690008")  -- Pal/Bacon Hair 
+        WearHats("62234425") -- Brown Hair
 end
     if uwu == "Hoverboard" then
-        WearHats("5136154487") 
-        WearHats("191101707") 
-        WearHats("29532720") 
-        WearHats("451220849") 
-        WearHats("63690008") 
-        WearHats("62234425") 
+        WearHats("5136154487") -- Black Sniper 
+        WearHats("191101707") -- Flaming Mohawk 
+        WearHats("29532720") -- Mizaru
+        WearHats("451220849") -- Lavender Updo 
+        WearHats("63690008")  -- Pal/Bacon Hair 
+        WearHats("62234425") -- Brown Hair  
 end
     if uwu == "Extendo V2" then
-        WearHats("8337370")
-        WearHats("16157972")
-        WearHats("15913837")
-        WearHats("5132745957")
-        WearHats("20011897")
-        WearHats("48474294")
-        WearHats("48474313")
-        WearHats("451220849")
-        WearHats("63690008")
-        WearHats("62234425")
+        WearHats("8337370") -- BlockHead Baseball Cap
+        WearHats("16157972") -- Blonde Roblohunk
+        WearHats("15913837") -- Roblohunk Hair
+        WearHats("5132745957") -- Red Cyclops Eye
+        WearHats("20011897") -- Space Cop
+        WearHats("48474294") -- Girl Hair
+        WearHats("48474313") -- Red Roblox Cap
+        WearHats("451220849") -- Lavender Updo
+        WearHats("63690008")  -- Pal/Bacon Hair
+        WearHats("62234425") -- Brown Hair 
 end
     if uwu == "Samurai" then
-        WearHats("4771664741")
-        WearHats("63690008")
+        WearHats("4771664741") -- Dragon Dachi
+        WearHats("63690008")  -- Pal/Bacon Hair
 end
     if uwu == "Kill-Bot" then
-        WearHats("6114870953")
-        WearHats("6114875330")
-        WearHats("6114844034") 
-        WearHats("6114849049")
-        WearHats("5100070995")
-        WearHats("191101707")
-        WearHats("4489239608")
-        WearHats("4504231783")
+        WearHats("6114870953") -- Caramel Bear Cookie
+        WearHats("6114875330") -- Frosted Bear Cookie
+        WearHats("6114844034") -- Blue Snow Cookie
+        WearHats("6114849049") -- Red Snow Cookie
+        WearHats("5100070995") -- Mk 73 Big Laser
+        WearHats("191101707") -- Flaming Mohawk
+        WearHats("4489239608") -- International Fedora United Kingdom
+        WearHats("4504231783") -- Elemental Gemstone shoulder thingy
 end
     if uwu == "Stand" then
-        WearHats("4735551808")
-        WearHats("29532720")
-        WearHats("4085947044")
-        WearHats("48474294")
-        WearHats("451220849")
-        WearHats("63690008")
-        WearHats("62234425")
+        WearHats("4735551808") -- Hollow
+        WearHats("29532720") -- Mizaru
+        WearHats("4085947044") -- Cursed Wolf Skull
+        WearHats("48474294") -- Girl Hair
+        WearHats("451220849") -- Lavender Updo
+        WearHats("63690008")  -- Pal/Bacon Hair
+        WearHats("62234425") -- Brown Hair 
 end
     if uwu == "Bob" then
-        WearHats("4602280470")
-        WearHats("4602810314")
-        WearHats("4132848799")
-        WearHats("5132745957")
-        WearHats("4602286484")
-        WearHats("30845203")
+        WearHats("4602280470") -- Black Beak
+        WearHats("4602810314") -- Raven Beak
+        WearHats("4132848799") -- Cyclops Eye
+        WearHats("5132745957") -- Red Cyclops Eye
+        WearHats("4602286484") -- Red Beak
+        WearHats("30845203") -- Paper Space Ranger
 end
     if uwu == "Mech-Arm" then
-        WearHats("29532720") 
-        WearHats("48474294") 
-        WearHats("48474313") 
-        WearHats("451220849") 
-        WearHats("63690008") 
-        WearHats("62234425") 
-        WearHats("20011897") 
-        WearHats("14463468") 
+        WearHats("29532720") -- Mizaru
+        WearHats("48474294") -- Girl Hair 
+        WearHats("48474313") -- Red Roblox Cap 
+        WearHats("451220849") -- Lavender Updo 
+        WearHats("63690008")  -- Pal/Bacon Hair 
+        WearHats("62234425") -- Brown Hair  
+        WearHats("20011897") -- Space Cop 
+        WearHats("14463468") -- Motocross 77 The Sting 
 end
     if uwu == "Car" then
-        WearHats("6309381870") 
-        WearHats("191101707") 
+        WearHats("6309381870") -- Black Car 
+        WearHats("191101707") -- Flaming Mohawk 
 end
     if uwu == "Amogus" then
-        WearHats("6055132810") 
-        WearHats("5231223671") 
-        WearHats("4584042059") 
+        WearHats("6055132810") -- Red Energy Saber 
+        WearHats("5231223671") -- Black Tophead 
+        WearHats("4584042059") -- International Fedora Netherlands 
 end
     if uwu == "Fallen Angel" then 
-        WearHats("5870560075") 
-        WearHats("5870530069") 
-        WearHats("5870508493") 
-        WearHats("5870540219") 
-        WearHats("5136212345") 
-        WearHats("5136159662") 
-        WearHats("5136165463") 
-        WearHats("5136154487") 
+        WearHats("5870560075") -- Purple Cyberpunk Voltaic Katana 
+        WearHats("5870530069") -- Blue Cyberpunk Voltaic Katana 
+        WearHats("5870508493") -- Red Cyberpunk Voltaic Katana 
+        WearHats("5870540219") -- Green Cyberpunk Voltaic Katana 
+        WearHats("5136212345") -- Green Sniper 
+        WearHats("5136159662") -- Blue Sniper 
+        WearHats("5136165463") -- Red Sniper 
+        WearHats("5136154487") -- Black Sniper 
 end
     if uwu == "Spider" then
-        WearHats("6309592547")
-        WearHats("8337370") 
-        WearHats("16157972") 
-        WearHats("15913837") 
-        WearHats("4584787812") 
-        WearHats("48474294") 
-        WearHats("48474313") 
-        WearHats("451220849") 
-        WearHats("63690008") 
-        WearHats("62234425") 
+        WearHats("6309592547") -- Spider Mask
+        WearHats("8337370") -- BlockHead Baseball Cap 
+        WearHats("16157972") -- Blonde Roblohunk 
+        WearHats("15913837") -- Roblohunk Hair 
+        WearHats("4584787812") -- Black Bangs w/ Bun 
+        WearHats("48474294") -- Girl Hair 
+        WearHats("48474313") -- Red Roblox Cap 
+        WearHats("451220849") -- Lavender Updo 
+        WearHats("63690008")  -- Pal/Bacon Hair 
+        WearHats("62234425") -- Brown Hair  
 end 
     if uwu == "Scythe" then
-        WearHats("5870560075") 
-        WearHats("5870530069") 
-        WearHats("5870508493") 
-        WearHats("4794106130") 
-        WearHats("4584787812") 
-        WearHats("48474294") 
-        WearHats("451220849") 
-        WearHats("63690008") 
-        WearHats("62234425") 
+        WearHats("5870560075") -- Purple Cyberpunk Voltaic Katana 
+        WearHats("5870530069") -- Blue Cyberpunk Voltaic Katana 
+        WearHats("5870508493") -- Red Cyberpunk Voltaic Katana 
+        WearHats("4794106130") -- Back Baguette 
+        WearHats("4584787812") -- Black Bangs w/ Bun 
+        WearHats("48474294") -- Girl Hair 
+        WearHats("451220849") -- Lavender Updo 
+        WearHats("63690008")  -- Pal/Bacon Hair 
+        WearHats("62234425") -- Brown Hair  
 end
     if uwu == "Pee Pee" then
-        WearHats("20011897") 
-        WearHats("12548563") 
-        WearShirt("9499750368") 
+        WearHats("20011897") -- Space Cop 
+        WearHats("12548563") -- Asimov Outlaw 
+        WearShirt("9499750368") -- R6 FOR AMAZING PEOPLE FENIX
 end
     if uwu == "Head" then
-        WearHats("4793958453") 
-        WearHats("5674299814") 
-        WearHats("5674297809") 
+        WearHats("4793958453") -- ROCK 
+        WearHats("5674299814") -- Happy Eye Head 
+        WearHats("5674297809") -- Eye Head 
         WearHats("1744219293") 
         WearHats("4878136110") 
         WearHats("4820288389") 
         WearHats("4584788319") 
         WearHats("4584787037") 
-        WearHats("4584787812") 
-        WearHats("29532720") 
+        WearHats("4584787812") -- Black Bangs w/ Bun 
+        WearHats("29532720") -- Mizaru
 end
     if uwu == "Creper" then
         WearHats("7603560230") 
-        WearHats("30845203") 
-        WearHats("29532720") 
-        WearHats("48474294") 
-        WearHats("451220849") 
-        WearHats("63690008") 
-        WearHats("62234425") 
+        WearHats("30845203") -- Paper Space Ranger 
+        WearHats("29532720") -- Mizaru
+        WearHats("48474294") -- Girl Hair 
+        WearHats("451220849") -- Lavender Updo 
+        WearHats("63690008")  -- Pal/Bacon Hair 
+        WearHats("62234425") -- Brown Hair  
 end
     if uwu == "Spider V2" then
-        WearHats("6309592547") 
-        WearHats("4584787812") 
+        WearHats("6309592547") -- Spider Mask 
+        WearHats("4584787812") -- Black Bangs w/ Bun 
         WearHats("5314242179") 
         WearHats("7178028147") 
         WearHats("7284595734") 
@@ -298,15 +298,15 @@ end
         WearHats("5314249208")
         WearHats("5314234050")
         WearHats("5314258567")
-        WearHats("29532720")
-        WearHats("4504231783") 
-        WearHats("63690008") 
+        WearHats("29532720") -- Mizaru
+        WearHats("4504231783") -- Elemental Gemstone shoulder thingy 
+        WearHats("63690008")  -- Pal/Bacon Hair 
 end
     if uwu == "Sofa Room" then
         WearHats("4940503634")
         WearHats("5591760397")
         WearHats("8163032656")
-        WearHats("4793958453")
+        WearHats("4793958453") -- ROCK
         WearHats("4878136110")
         WearHats("4584788319")
         WearHats("4584787037")
@@ -315,18 +315,18 @@ end
 end
     if uwu == "Statue" then
         WearHats("1744219293")
-        WearHats("30845203")
+        WearHats("30845203") -- Paper Space Ranger
         WearHats("5063499736")
         WearHats("4878136110")
         WearHats("4584788319")
-        WearHats("191101707")
-        WearHats("4584787812")
+        WearHats("191101707") -- Flaming Mohawk
+        WearHats("4584787812") -- Black Bangs w/ Bun
         WearHats("4584787037")
         WearHats("8284021247")
 end
     if uwu == "Handz VR" then
         WearHats("7669627395")
-        WearHats("4793958453")
+        WearHats("4793958453") -- ROCK
         WearHats("5674298865")
         WearHats("1744219293")
         WearHats("18015906")
@@ -334,7 +334,7 @@ end
         WearHats("4878136110")
         WearHats("4584788319")
         WearHats("4584787037")
-        WearHats("4584787812")
+        WearHats("4584787812") -- Black Bangs w/ Bun
 end
 end)
 --[[
@@ -346,23 +346,23 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
 b:Dropdown("R15 Hat Loaders",{"Samurai R15","Sniper R15",
     "PeePee R15","Amogus R15","Car R15","Arm-Man","Dragon","Flying Extendo R15"},false,function(owo)
     if owo == "Samurai R15" then
-        WearHats("4771664741")
+        WearHats("4771664741") -- Dragon Dachi
 end
     if owo == "Sniper R15" then
-        WearHats("4504231783") 
-        WearHats("5136154487")
+        WearHats("4504231783") -- Elemental Gemstone shoulder thingy 
+        WearHats("5136154487") -- Black Sniper
 end
     if owo == "PeePee R15" then
-        WearHats("5674299814")
-        WearHats("5674297809")
+        WearHats("5674299814") -- Happy Eye Head
+        WearHats("5674297809") -- Eye Head
         WearShirt("9499745499")
 end
     if owo == "Amogus R15" then
-        WearHats("5231223671")
+        WearHats("5231223671") -- Black Tophead
 end
     if owo == "Car R15" then
-        WearHats("6309381870")
-        WearHats("191101707")
+        WearHats("6309381870") -- Black Car
+        WearHats("191101707") -- Flaming Mohawk
 end
     if owo == "Arm-Man" then
         WearShirt("9107709476")
@@ -380,7 +380,7 @@ end
         WearHats("5677348945") 
         WearHats("5677350668")
         WearHats("7241027024")
-        WearHats("4132848799")
+        WearHats("4132848799") -- Cyclops Eye
 end
 end)
 
@@ -452,7 +452,11 @@ c:Slider("Hat Layer (1-3)",{
     end
 end)
 
+<<<<<<< HEAD
+c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2","Argument Starter V3","femboy samurai thing"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
+=======
 c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2", "Argument Starter V3", "femboy samurai thing"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
+>>>>>>> 685dc45e6eac96278ceb9bb7a01888f387cd675d
     if BigBlackMen == "Yorrie" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
@@ -534,7 +538,7 @@ c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1
         WearHats2("8212146342")
         WearHats2("7097435652")
         WearShirt("9281507893")
-        WearPants("9281511714")
+        WearPants("9281511714")  
     end
     if BigBlackMen == "Argument Starter V3" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -552,7 +556,7 @@ c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1
         WearShirt("3806921305")
         WearPants("7884569567")
     end
-        if BigBlackMen == "femboy samurai thing" then
+    if BigBlackMen == "femboy samurai thing" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6500621548")
