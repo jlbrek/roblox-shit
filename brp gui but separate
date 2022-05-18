@@ -452,7 +452,7 @@ c:Slider("Hat Layer (1-3)",{
     end
 end)
 
-c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2", "Argument Starter V3"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
+c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2", "Argument Starter V3", "femboy samurai thing"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
     if BigBlackMen == "Yorrie" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
