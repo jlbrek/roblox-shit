@@ -31,6 +31,8 @@ warn("Welcome to BRP gui!")
 warn("This dog shit script was made for this dog shit game!")
 
 local w = library:CreateWindow("BRP GUI") -- windrr!
+local w2 = library:CreateWindow(" ")
+local b2 = w2:CreateFolder("Outfit Changer")
 local b = w:CreateFolder("FEnix") -- foldrr1!
 local c = w:CreateFolder("Misc") -- foldrr2!!!!-- 
 
@@ -431,14 +433,7 @@ c:Button("EXTRA TOOLS(dont use)",function() -- Eventually want to make this a to
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(TempLocation)
 end)
 
-c:Label("Custom Outfits",{
-    TextSize = 20; -- Self Explaining
-    TextColor = Color3.fromHex("#eceff4"); -- Self Explaining
-    BgColor = Color3.fromHex("#2e3440"); -- Self Explaining
-    
-})
-
-c:Slider("Hat Layer (1-3)",{
+b2:Slider("Hat Layer (1-3)",{
     min = 1; -- min value of the slider
     max = 3; -- max value of the slider
     precise = false; -- max 2 decimals
@@ -452,11 +447,7 @@ c:Slider("Hat Layer (1-3)",{
     end
 end)
 
-<<<<<<< HEAD
-c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2","Argument Starter V3","femboy samurai thing"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
-=======
-c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2", "Argument Starter V3", "femboy samurai thing"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
->>>>>>> 685dc45e6eac96278ceb9bb7a01888f387cd675d
+b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2","Argument Starter V3","femboy samurai thing"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
     if BigBlackMen == "Yorrie" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
