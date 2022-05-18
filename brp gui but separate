@@ -677,7 +677,7 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         WearHats2("6829153466")
         WearShirt("6120280009")
         WearPants("6120281277")
-                local args = {
+        local args = {
             [1] = {
                 ["Category"] = "Face",
                 ["AssetId"] = "2222771916"
