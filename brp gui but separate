@@ -26,14 +26,6 @@ local crp = lp.Character
 local ws = game:GetService("Workspace")
 local snkm = ws.SnackMachine
 
-if snkm.Giver.Outside ~= nil then -- supposed to delete the unnecessary vending machine items
-    snkm.Giver.Outside:Destroy() -- then it check if they exist, so you can execute the fucking gui again lmao
-    snkm.Giver.Inside:Destroy()
-    snkm.Snacks:Destroy()
-    snkm.SnackClones:Destroy()
-elseif snkm.Giver.Outside == nil then
-    print("literally just built diff ongggg")
-end
    
 warn("Welcome to BRP gui!")
 warn("This dog shit script was made for this dog shit game!")
@@ -51,7 +43,7 @@ b:Slider("Hat Layer (1-3)",{
         DAWG = "Hat1"
     elseif value == 2 then
         DAWG = "Hat2"
-    elseif value == 4 then
+    elseif value == 3 then
         DAWG = "Hat3"
     end
 end)
@@ -63,6 +55,17 @@ local WearHats = function(ID)
         [1] = {
             ["Category"] = DAWG,
             ["AssetId"] = ID
+        }
+    }
+    
+    game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
+end
+
+local WearHats2 = function(ID2) 
+    local args = {
+        [1] = {
+            ["Category"] = DAWG2,
+            ["AssetId"] = ID2
         }
     }
     
@@ -380,29 +383,157 @@ end
         WearHats("4132848799")
 end
 end)
+
+
+
 c:Button("REMOVE DRUMSET",function()
     ws["Custom heavy drum"]:Destroy()
 end)
-c:Button("EXTRA TOOLS (inf)",function() -- Eventually want to make this a toggle instead of a button
-    local TempLocation = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
-    wait(0.01)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-178.651, 431.8, 5510.24) -- optimal location to grab all of the tools
-    wait(0.5)
-    fireclickdetector(snkm.Selection1.ClickDetector)
-    wait(0.001)
-    fireclickdetector(snkm.Selection2.ClickDetector)
-    wait(0.001)
-    fireclickdetector(snkm.Selection3.ClickDetector)
-    wait(0.001) 
-    fireclickdetector(snkm.Selection4.ClickDetector)
-    wait(0.001)
-    fireclickdetector(snkm.Selection5.ClickDetector)
-    wait(0.001) 
-    fireclickdetector(snkm.Selection6.ClickDetector)
-    wait(0.001)
-    fireclickdetector(snkm.Selection7.ClickDetector)
-    wait(0.001)
-    fireclickdetector(snkm.Selection8.ClickDetector)
-    wait(1.3)
+
+c:Label("Extra Tools",{
+    TextSize = 20; -- Self Explaining
+    TextColor = Color3.fromHex("#eceff4"); -- Self Explaining
+    BgColor = Color3.fromHex("#2e3440"); -- Self Explaining
+    
+}) 
+
+c:Slider("(don't use)",{
+    min = 1; -- min value of the slider
+    max = 20; -- max value of the slider
+    precise = false; -- max 2 decimals
+},function(vvalue)
+    numbroftimes = vvalue
+end)
+
+c:Button("EXTRA TOOLS(dont use)",function() -- Eventually want to make this a toggle instead of a button
+    for numtps = 0, numbroftimes, 1 do
+        local TempLocation = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+        wait(0.01)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-178.651, 431.8, 5510.24) -- optimal location to grab all of the tools
+        wait(0.5)
+        fireclickdetector(snkm.Selection1.ClickDetector)
+        wait(0.001)
+        fireclickdetector(snkm.Selection2.ClickDetector)
+        wait(0.001)
+        fireclickdetector(snkm.Selection3.ClickDetector)
+        wait(0.001) 
+        fireclickdetector(snkm.Selection4.ClickDetector)
+        wait(0.001)
+        fireclickdetector(snkm.Selection5.ClickDetector)
+        wait(0.001) 
+        fireclickdetector(snkm.Selection6.ClickDetector)
+        wait(0.001)
+        fireclickdetector(snkm.Selection7.ClickDetector)
+        wait(0.001)
+        fireclickdetector(snkm.Selection8.ClickDetector)
+        wait(1.3)
+    end
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(TempLocation)
+end)
+
+c:Label("Custom Outfits",{
+    TextSize = 20; -- Self Explaining
+    TextColor = Color3.fromHex("#eceff4"); -- Self Explaining
+    BgColor = Color3.fromHex("#2e3440"); -- Self Explaining
+    
+})
+
+c:Slider("Hat Layer (1-3)",{
+    min = 1; -- min value of the slider
+    max = 3; -- max value of the slider
+    precise = false; -- max 2 decimals
+},function(value)
+    if value == 1 then
+        DAWG2 = "Hat1"
+    elseif value == 2 then
+        DAWG2 = "Hat2"
+    elseif value == 3 then
+        DAWG2 = "Hat3"
+    end
+end)
+
+c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
+    if BigBlackMen == "Yorrie" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("8082491357")
+        WearHats2("8496651597")
+        WearHats2("5077453408")
+        WearHats2("4378579302")
+        WearHats2("5549423808")
+        WearHats2("7133520069")
+        WearHats2("7437573215")
+        WearHats2("7063887536")
+        WearHats2("7773806690")
+        WearHats2("6202636221")
+        WearShirt("8474407589")
+        WearPants("5772829552")
+    end
+    if BigBlackMen == "Mug Maniac" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("5461560027")
+        WearHats2("7737773779")
+        WearShirt("8927283780")
+        WearPants("8503203430")
+        local args = {
+            [1] = {
+                ["Category"] = "Face",
+                ["AssetId"] = "277950647"
+            }
+        }
+        
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
+    end
+    if BigBlackMen == "Raiden" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("8846363404")
+        WearHats2("8850622918")
+        WearHats2("8850883683")
+        WearHats2("5095311912")
+        WearHats2("9057255922")
+        WearHats2("8997890531")
+        WearHats2("8850894604")
+        WearHats2("6069138311")
+        WearHats2("6099338432")
+        WearHats2("6202772225")
+        WearHats2("5870508493")
+        WearShirt("8628953074")
+        WearPants("8628951519")
+    
+    end
+    if BigBlackMen == "Argument Starter V1" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("6299823564")
+        WearHats2("8787069590")
+        WearHats2("8263806966")
+        WearHats2("5765092061")
+        WearHats2("9401831589")
+        WearHats2("7241184132")
+        WearHats2("7241181724")
+        WearHats2("9125146527")
+        WearHats2("8529769537")
+        WearHats2("8926732256")
+        WearShirt("9647982308")
+        WearPants("9648000301")    
+    end
+    if BigBlackMen == "Argument Starter V2" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("6564274350")
+        WearHats2("8346545669")
+        WearHats2("8704325138")
+        WearHats2("8994234116")
+        WearHats2("8527306789")
+        WearHats2("6564251480")
+        WearHats2("8106934661")
+        WearHats2("8106937248")
+        WearHats2("6449581880")
+        WearHats2("8212146342")
+        WearHats2("7097435652")
+        WearShirt("9281507893")
+        WearPants("9281511714")  
+    end
 end)
