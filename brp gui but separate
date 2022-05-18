@@ -638,4 +638,29 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end          
+        if BigBlackMen == "Armstrong w/shirt" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("6712905660")
+        WearHats2("9186842626")
+        WearShirt("9362527176")
+        WearPants("9368914964")
+        end
+        if BigBlackMen == "Armstrong w/o shirt" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("6712905660")
+        WearShirt("9438823479")
+        WearPants("9119621099")
+        end
+        if BigBlackMen == "Monsoon" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("8083408188")
+        WearHats2("8088509914")
+        WearHats2("6201979689")
+        WearHats2("6829153466")
+        WearShirt("6120280009")
+        WearPants("6120281277")
+    end
 end)
