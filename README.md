@@ -6,4 +6,4 @@ dog water
 if you will,
 horrible, if you were to be so inclined
 
-use separate gui unless you want it to break half of the time
+separate gui is experimental version, dont use unless you want it to break half the time
