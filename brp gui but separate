@@ -29,8 +29,9 @@ warn("Welcome to BRP gui!")
 warn("This dog shit script was made for this dog shit game!")
 
 local w = library:CreateWindow("BRP GUI") -- windrr!
-local w2 = library:CreateWindow(" ")
-local b2 = w2:CreateFolder("Outfit Changer")
+local w2 = library:CreateWindow("Outfit Changer")
+local b2 = w2:CreateFolder("Settings")
+local b3 = w2:CreateFolder("Outfits")
 local b = w:CreateFolder("FEnix") -- foldrr1!
 local c = w:CreateFolder("Misc") -- foldrr2!!!!-- 
 
@@ -445,7 +446,7 @@ b2:Slider("Hat Layer (1-3)",{
     end
 end)
 
-b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argument Starter V2","Argument Starter V3","femboy samurai thing","Raiden","Sam","Sam (mask)","Sundowner","Sundowner (mask)","Armstrong w/shirt","Armstrong w/o shirt","Monsoon"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
+b3:Dropdown("Normal",{"Yorrie","Mug Maniac","femboy samurai thing"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
     if BigBlackMen == "Yorrie" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
@@ -478,7 +479,23 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end
-    if BigBlackMen == "Argument Starter V1" then
+    if BigBlackMen == "femboy samurai thing" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("6500621548")
+        WearHats2("8465344424")
+        WearHats2("7391254943")
+        WearHats2("5870530069")
+        WearHats2("7168000945")
+        WearHats2("6441556987")
+        WearHats2("5973156193")
+        WearShirt("4408224736")
+        WearPants("7011868219")
+    end
+end)
+
+b3:Dropdown("Argument Starters",{"Argument Starter V1","Argument Starter V2","Argument Starter V3"},false,function(BigBuffMen) --true/false, replaces the current title "Dropdown" with the option that t
+    if BigBuffMen == "Argument Starter V1" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6299823564")
@@ -494,7 +511,7 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         WearShirt("9647982308")
         WearPants("9648000301")    
     end
-    if BigBlackMen == "Argument Starter V2" then
+    if BigBuffMen == "Argument Starter V2" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6564274350")
@@ -511,7 +528,7 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         WearShirt("9281507893")
         WearPants("9281511714")  
     end
-    if BigBlackMen == "Argument Starter V3" then
+    if BigBuffMen == "Argument Starter V3" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("928908332")
@@ -527,20 +544,9 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         WearShirt("3806921305")
         WearPants("7884569567")
     end
-    if BigBlackMen == "femboy samurai thing" then
-        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
-        wait(0.1)
-        WearHats2("6500621548")
-        WearHats2("8465344424")
-        WearHats2("7391254943")
-        WearHats2("5870530069")
-        WearHats2("7168000945")
-        WearHats2("6441556987")
-        WearHats2("5973156193")
-        WearShirt("4408224736")
-        WearPants("7011868219")
-    end
-    if BigBlackMen == "Raiden" then
+end)
+b3:Dropdown("MGR",{"Raiden","Sam","Sam (mask)","Sundowner","Sundowner (mask)","Armstrong w/shirt","Armstrong w/o shirt","Monsoon"},false,function(BigDickMen)
+    if BigDickMen == "Raiden" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("8846363404")
@@ -557,7 +563,7 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         WearShirt("8628953074")
         WearPants("8628951519")
     end 
-    if BigBlackMen == "Sam" then
+    if BigDickMen == "Sam" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("7194897987")
@@ -577,7 +583,7 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
     
     game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end
-    if BigBlackMen == "Sam (mask)" then
+    if BigDickMen == "Sam (mask)" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("7194897987")
@@ -598,7 +604,7 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end
-    if BigBlackMen == "Sundowner" then
+    if BigDickMen == "Sundowner" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6719151174")
@@ -617,7 +623,7 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end
-    if BigBlackMen == "Sundowner (mask)" then
+    if BigDickMen == "Sundowner (mask)" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6719151174")
@@ -637,7 +643,7 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end   
-    if BigBlackMen == "Armstrong w/shirt" then
+    if BigDickMen == "Armstrong w/shirt" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6712905660")
@@ -653,7 +659,7 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end
-    if BigBlackMen == "Armstrong w/o shirt" then
+    if BigDickMen == "Armstrong w/o shirt" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6712905660")
@@ -668,7 +674,7 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Argument Starter V1","Argum
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end
-    if BigBlackMen == "Monsoon" then
+    if BigDickMen == "Monsoon" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("8083408188")
