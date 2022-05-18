@@ -559,16 +559,16 @@ b2:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V
         WearPants("7011868219")
     end
     if BigBlackMen == "Sam" then
-    game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
-    wait(0.1)
-    WearHats2("7194897987")
-    WearHats2("8994112527")
-    WearHats2("4995497755")
-    WearHats2("5066618872")
-    WearHats2("5095311912")
-    WearHats2("5870508493")
-    WearShirt("193296835")
-    WearPants("193296867")
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("7194897987")
+        WearHats2("8994112527")
+        WearHats2("4995497755")
+        WearHats2("5066618872")
+        WearHats2("5095311912")
+        WearHats2("5870508493")
+        WearShirt("193296835")
+        WearPants("193296867")
     local args = {
         [1] = {
             ["Category"] = "Face",
