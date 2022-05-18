@@ -452,7 +452,7 @@ c:Slider("Hat Layer (1-3)",{
     end
 end)
 
-c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
+c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1","Argument Starter V2", "Argument Starter V3"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
     if BigBlackMen == "Yorrie" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
@@ -534,6 +534,22 @@ c:Dropdown("Custom Outfits",{"Yorrie","Mug Maniac","Raiden","Argument Starter V1
         WearHats2("8212146342")
         WearHats2("7097435652")
         WearShirt("9281507893")
-        WearPants("9281511714")  
+        WearPants("9281511714")
+    end
+    if BigBlackMen == "Argument Starter V3" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("928908332")
+        WearHats2("6102712313")
+        WearHats2("6905947348")
+        WearHats2("6838619271")
+        WearHats2("7029295519")
+        WearHats2("7259123616")
+        WearHats2("7141559779")
+        WearHats2("7393120951")
+        WearHats2("8496651597")
+        WearHats2("5870530069")
+        WearShirt("3806921305")
+        WearPants("7884569567")
     end
 end)
