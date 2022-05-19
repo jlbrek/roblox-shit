@@ -446,6 +446,10 @@ b2:Slider("Hat Layer (1-3)",{
     end
 end)
 
+b2:Toggle("Alt Ver. Toggle",function(bool)
+    shared.toggle = bool
+end)
+
 b3:Dropdown("Normal",{"Yorrie","Mug Maniac","femboy samurai thing","Blank"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
     if BigBlackMen == "Yorrie" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -574,7 +578,7 @@ b3:Dropdown("Argument Starters",{"Argument Starter V1","Argument Starter V2","Ar
     end
 end)
 
-b3:Dropdown("MGR",{"Raiden","Sam","Sam (mask)","Sundowner","Sundowner (mask)","Armstrong w/shirt","Armstrong w/o shirt","Monsoon"},false,function(BigDickMen)
+b3:Dropdown("MGR",{"Raiden","Sam","Sundowner","Armstrong","Monsoon"},false,function(BigDickMen)
     if BigDickMen == "Raiden" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
@@ -592,7 +596,7 @@ b3:Dropdown("MGR",{"Raiden","Sam","Sam (mask)","Sundowner","Sundowner (mask)","A
         WearShirt("8628953074")
         WearPants("8628951519")
     end 
-    if BigDickMen == "Sam" then
+    if BigDickMen == "Sam" and shared.toggle == false then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("7194897987")
@@ -612,7 +616,7 @@ b3:Dropdown("MGR",{"Raiden","Sam","Sam (mask)","Sundowner","Sundowner (mask)","A
     
     game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end
-    if BigDickMen == "Sam (mask)" then
+    if BigDickMen == "Sam" and shared.toggle == true then -- alt mask
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("7194897987")
@@ -633,7 +637,7 @@ b3:Dropdown("MGR",{"Raiden","Sam","Sam (mask)","Sundowner","Sundowner (mask)","A
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end
-    if BigDickMen == "Sundowner" then
+    if BigDickMen == "Sundowner" and shared.toggle == false then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6719151174")
@@ -652,7 +656,7 @@ b3:Dropdown("MGR",{"Raiden","Sam","Sam (mask)","Sundowner","Sundowner (mask)","A
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end
-    if BigDickMen == "Sundowner (mask)" then
+    if BigDickMen == "Sundowner" and shared.toggle == true then -- alt mask
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6719151174")
@@ -672,7 +676,7 @@ b3:Dropdown("MGR",{"Raiden","Sam","Sam (mask)","Sundowner","Sundowner (mask)","A
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end   
-    if BigDickMen == "Armstrong w/shirt" then
+    if BigDickMen == "Armstrong" and shared.toggle == false then 
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6712905660")
@@ -688,7 +692,7 @@ b3:Dropdown("MGR",{"Raiden","Sam","Sam (mask)","Sundowner","Sundowner (mask)","A
         
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.WearItem:FireServer(unpack(args))
     end
-    if BigDickMen == "Armstrong w/o shirt" then
+    if BigDickMen == "Armstrong" and shared.toggle == true then -- alt w/o shirt
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("6712905660")
