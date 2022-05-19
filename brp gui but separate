@@ -500,7 +500,7 @@ b3:Dropdown("Normal",{"Yorrie","Mug Maniac","femboy samurai thing","Blank"},fals
     end
 end)
 
-b3:Dropdown("Argument Starters",{"Argument Starter V1","Argument Starter V2","Argument Starter V3"},false,function(BigBuffMen) --true/false, replaces the current title "Dropdown" with the option that t
+b3:Dropdown("Argument Starters",{"Argument Starter V1","Argument Starter V2","Argument Starter V3","Argument Starter V4"},false,function(BigBuffMen) --true/false, replaces the current title "Dropdown" with the option that t
     if BigBuffMen == "Argument Starter V1" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
@@ -550,7 +550,30 @@ b3:Dropdown("Argument Starters",{"Argument Starter V1","Argument Starter V2","Ar
         WearShirt("3806921305")
         WearPants("7884569567")
     end
+    if BigBuffMen == "Argument Starter V4" then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("6299823564")
+        WearHats2("8787069590")
+        WearHats2("4319676598")
+        WearHats2("5765092061")
+        WearHats2("4772265365")
+        WearHats2("6092910532")
+        WearHats2("7241180060")
+        WearHats2("9125146527")
+        WearHats2("7168533632")
+        WearHats2("6102714255")
+        WearHats2("6239871966")
+        WearHats2("7541004408")
+        WearHats2("6902264455")
+        WearHats2("5727822995")
+        WearHats2("7062020734")
+        WearHats2("8926732256")
+        WearShirt("7152181874")
+        WearPants("6419276182")
+    end
 end)
+
 b3:Dropdown("MGR",{"Raiden","Sam","Sam (mask)","Sundowner","Sundowner (mask)","Armstrong w/shirt","Armstrong w/o shirt","Monsoon"},false,function(BigDickMen)
     if BigDickMen == "Raiden" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
