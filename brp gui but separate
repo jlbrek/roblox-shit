@@ -492,7 +492,7 @@ b3:Dropdown("Normal",{"Yorrie","Mug Maniac","femboy samurai thing", "Blank"},fal
         WearShirt("4408224736")
         WearPants("7011868219")
     end
-    if BigBuffMen == "Blank" then
+    if BigBlackMen == "Blank" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearShirt("0")
