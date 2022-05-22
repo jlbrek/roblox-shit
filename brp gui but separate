@@ -451,7 +451,7 @@ b2:Toggle("Alt Ver. Toggle",function(bool)
 end)
 
 b3:Dropdown("Normal",{"Yorrie","Mug Maniac","femboy samurai thing","Blank"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
-    if BigBlackMen == "Yorrie" then
+    if BigBlackMen == "Yorrie" and shared.toggle == false then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("8082491357")
@@ -466,6 +466,20 @@ b3:Dropdown("Normal",{"Yorrie","Mug Maniac","femboy samurai thing","Blank"},fals
         WearHats2("6202636221")
         WearShirt("8474407589")
         WearPants("5772829552")
+    end
+    if BigBlackMen == "Yorrie" and shared.toggle == true then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("4772265365")
+        WearHats2("7259147441")
+        WearHats2("8496651597")
+        WearHats2("4436710326")
+        WearHats2("5591898874")
+        WearHats2("5727822995")
+        WearHats2("7222659174")
+        WearHats2("7133520069")
+        WearShirt("7407536285")
+        WearPants("9256901387")
     end
     if BigBlackMen == "Mug Maniac" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
@@ -554,13 +568,11 @@ b3:Dropdown("Argument Starters",{"Argument Starter V1","Argument Starter V2","Ar
         WearShirt("3806921305")
         WearPants("7884569567")
     end
-    if BigBuffMen == "Argument Starter V4" then
+    if BigBuffMen == "Argument Starter V4" and shared.toggle == false then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
-        WearHats2("6299823564")
         WearHats2("8787069590")
         WearHats2("4319676598")
-        WearHats2("5765092061")
         WearHats2("4772265365")
         WearHats2("6092910532")
         WearHats2("7241180060")
@@ -569,12 +581,26 @@ b3:Dropdown("Argument Starters",{"Argument Starter V1","Argument Starter V2","Ar
         WearHats2("6102714255")
         WearHats2("6239871966")
         WearHats2("7541004408")
-        WearHats2("6902264455")
-        WearHats2("5727822995")
         WearHats2("7062020734")
         WearHats2("8926732256")
+        WearHats2("5918263633")
         WearShirt("7152181874")
         WearPants("6419276182")
+    end
+    if BigBuffMen == "Argument Starter V4" and shared.toggle == true then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("7168533632")
+        WearHats2("9125146527")
+        WearHats2("7241180060")
+        WearHats2("4319676598")
+        WearHats2("4772333114")
+        WearHats2("7541004408")
+        WearHats2("7168533632")
+        WearHats2("8926732256")
+        WearHats2("6202412344")
+        WearShirt("7461546869")
+        WearPants("5800643465")
     end
 end)
 
