@@ -28,7 +28,7 @@ local snkm = ws.SnackMachine
 warn("Welcome to BRP gui!")
 warn("This dog shit script was made for this dog shit game!")
 
-local w = library:CreateWindow("BRP GUI") -- windrr!
+local w = library:CreateWindow("BRP GUI V2.1") -- windrr!
 local w2 = library:CreateWindow("Outfit Changer")
 local b2 = w2:CreateFolder("Settings")
 local b3 = w2:CreateFolder("Outfits")
