@@ -387,8 +387,9 @@ end)
 
 
 
-c:Button("REMOVE DRUMSET",function()
+c:Button("REMOVE ANNOYANCES",function()
     ws["Custom heavy drum"]:Destroy()
+    ws.Campsite.Campfire.FlameTouchPart.FireSound:Destroy()
 end)
 
 c:Label("Extra Tools",{
