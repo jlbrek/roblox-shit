@@ -511,7 +511,7 @@ b3:Dropdown("Normal",{"Yorrie","Mug Maniac","Femboys V1.1","femboy samurai thing
         WearHats2("8472988727")
         WearHats2("6934066584")
         WearShirt("8829677450")
-        WearPants("8829677450")
+        WearPants("8461259985")
     end
     if BigBlackMen == "Mug Maniac" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
