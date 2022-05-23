@@ -485,6 +485,7 @@ b3:Dropdown("Normal",{"Yorrie","Mug Maniac","Femboys V1.1","femboy samurai thing
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
         WearHats2("4507926110")
+        WearHats2("7133520069")
         WearHats2("8028207112")
         WearHats2("8650958314")
         WearHats2("8918679960")
