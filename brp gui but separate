@@ -450,7 +450,7 @@ b2:Toggle("Alt Ver. Toggle",function(bool)
     shared.toggle = bool
 end)
 
-b3:Dropdown("Normal",{"Yorrie","Mug Maniac","femboy samurai thing","Blank"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
+b3:Dropdown("Normal",{"Yorrie","Mug Maniac","Femboys V1.1","femboy samurai thing","Blank"},false,function(BigBlackMen) --true/false, replaces the current title "Dropdown" with the option that t
     if BigBlackMen == "Yorrie" and shared.toggle == false then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
         wait(0.1)
@@ -480,6 +480,38 @@ b3:Dropdown("Normal",{"Yorrie","Mug Maniac","femboy samurai thing","Blank"},fals
         WearHats2("7133520069")
         WearShirt("7407536285")
         WearPants("9256901387")
+    end
+    if BigBlackMen == "Femboys V1.1" and shared.toggle == false then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("4507926110")
+        WearHats2("8028207112")
+        WearHats2("8650958314")
+        WearHats2("8918679960")
+        WearHats2("6202636221")
+        WearHats2("7222697410")
+        WearHats2("7259308183")
+        WearHats2("8496659397")
+        WearShirt("6373729608")
+        WearPants("6373724655")
+    end
+    if BigBlackMen == "Femboys V1.1" and shared.toggle == true then
+        game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
+        wait(0.1)
+        WearHats2("6154278404")
+        WearHats2("6965287494")
+        WearHats2("6154280860")
+        WearHats2("7865583533")
+        WearHats2("7960841460")
+        WearHats2("7259123616")
+        WearHats2("7394702369")
+        WearHats2("4378579302")
+        WearHats2("7602641935")
+        WearHats2("6202814709")
+        WearHats2("8472988727")
+        WearHats2("6934066584")
+        WearShirt("8829677450")
+        WearPants("8829677450")
     end
     if BigBlackMen == "Mug Maniac" then
         game:GetService("Players").LocalPlayer.PlayerGui.AvatarEditor.RemoveHats:FireServer()
