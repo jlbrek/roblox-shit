@@ -304,7 +304,6 @@ end
         WearHats("63690008")  -- Pal/Bacon Hair 
 end
     if uwu == "Sofa Room" then
-        WearHats("4940503634") -- Fave Shoulder Pal
         WearHats("5591760397") -- Shadow Gamer Controller 3.0
         WearHats("8163032656") -- Vintage TV No Signal
         WearHats("4793958453") -- ROCK
