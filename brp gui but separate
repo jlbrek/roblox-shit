@@ -339,10 +339,13 @@ end
     if uwu == "Mech Tails" then
         WearHats("7168360269")
         WearHats("7168347862")
+        WearHats("1744235800")
         WearHats("1744219293")
         WearHats("4602533885")
         WearHats("4753437569")
+        WearHats("62234425")
         WearHats("63690008")
+        WearHats("451220849")
 end
 end)
 --[[
