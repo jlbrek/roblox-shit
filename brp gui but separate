@@ -105,7 +105,7 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
 b:Dropdown("R6 Hat Loaders",{"Ogre","Flying Extendo","Sniper","Mech","Hoverboard",
            "Extendo V2","Samurai","Kill-Bot","Stand","Bob","Mech-Arm","Car",
            "Amogus","Fallen Angel","Spider","Scythe","Pee Pee","Head","Creper",
-           "Spider V2","Mechanoid","Sofa Room","Statue","Handz VR"},false,function(uwu)
+           "Spider V2","Mechanoid","Sofa Room","Statue","Handz VR", "Mech Tails"},false,function(uwu)
 --==| HAT FUNCTION |==--
 
 --==| HAT FUNCTION |==--
@@ -335,6 +335,14 @@ end
         WearHats("4584788319") -- Blonde Bangs w/ Bun
         WearHats("4584787037") -- Brunette Bangs w/ Bun
         WearHats("4584787812") -- Black Bangs w/ Bun
+end
+    if uwu == "Mech Tails" then
+        WearHats("7168360269")
+        WearHats("7168347862")
+        WearHats("1744219293")
+        WearHats("4602533885")
+        WearHats("4753437569")
+        WearHats("63690008")
 end
 end)
 --[[
