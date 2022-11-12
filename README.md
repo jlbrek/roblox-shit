@@ -1,6 +1,6 @@
 # Roblox Shit! 
 ## Basically just a script dump
-###### jlbrek + bigblackdudes (valkea 3086 % jlbrek#9255)
+###### jlbrek + bigblackdudes (valkea#3086 % jlbrek#9255)
 
 feel free to skid off this skidded code
 
