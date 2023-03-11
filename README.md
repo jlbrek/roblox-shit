@@ -1,4 +1,5 @@
-# Roblox Shit! 
+# Roblox Shit!
+# HEAVILY SKIDDED FAG WARNING!!!
 ## Basically just a script dump
 ###### jlbrek + bigblackdudes (valkea#3086 % jlbrek#9255)
 
